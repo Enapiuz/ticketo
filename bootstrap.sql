@@ -1,0 +1,7 @@
+CREATE ROLE ticketo LOGIN PASSWORD '1'
+   VALID UNTIL 'infinity';
+
+CREATE DATABASE ticketo
+  WITH ENCODING='UTF8'
+       OWNER=ticketo
+       CONNECTION LIMIT=-1;
